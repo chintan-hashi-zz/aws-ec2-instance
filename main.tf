@@ -16,5 +16,3 @@ resource "aws_instance" "ubuntu" {
   }
 }
 
-
-try out a new change
