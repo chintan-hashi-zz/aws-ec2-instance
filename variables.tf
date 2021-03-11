@@ -4,8 +4,7 @@ variable "aws_region" {
 }
 
 variable "ami_id" {
-  description = "ID of the AMI to provision. Default is Ubuntu 14.04 Base Image"
-  default = "ami-0dbf5ea29a7fc7e05"
+  description = "ID of the AMI to provision."
 }
 
 variable "instance_type" {
@@ -15,5 +14,9 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "Provisioned by Terraform"
+  default = "cgosalia-TF-instance"
+}
+
+variable "env" {
+  description = "environment type"
 }
