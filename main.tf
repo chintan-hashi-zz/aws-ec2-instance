@@ -8,6 +8,7 @@ provider "aws" {
 
 resource "aws_instance" "ubuntu" {
   ami           = var.ami_id
+  name		= var.name
   instance_type = var.instance_type
   availability_zone = "${var.aws_region}b"
 
