@@ -15,5 +15,9 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "Provisioned by Terraform"
+  default = "cgosalia-TF-instance"
+}
+
+variable "env" {
+  description = "environment type"
 }
