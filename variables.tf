@@ -9,12 +9,12 @@ variable "ami_id" {
 
 variable "instance_type" {
   description = "type of EC2 instance to provision."
-  default = "t2.nano"
+  default = "t2.micro"
 }
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "cgosalia-TF-instance"
+  default = "cgosalia-TFE-instance"
 }
 
 variable "env" {
