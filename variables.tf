@@ -14,7 +14,7 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "cgosalia1-TFE-instance"
+  default = "cgosalia-TFE-instance"
 }
 
 variable "env" {
